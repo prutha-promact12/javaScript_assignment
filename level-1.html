@@ -1,0 +1,67 @@
+
+<html>
+	<head>
+		<title>
+		 	Desing a form..
+		</title>
+		<script type="text/javascript" src="javascript.js">
+	</script>
+	</head>
+	<body onload="addQualification_list()">
+		<form name="item_list" >
+			First Name:</br>
+			<input type="text" name="first"></br>
+			
+			</br>	
+			Last Name:</br>
+			<input type="text" name="last"></br>
+			
+			</br>	
+			Email:</br>
+			<input type="email" name="email"></br>
+			
+			</br>
+			Contact Number:</br>
+			<input type="number" name="contactno"></br>
+			
+			</br>
+			Address:</br>
+			<textarea name="address" rows="2" cols="22">
+			</textarea></br>
+			
+			</br>	
+			User Name:</br>
+			<input type="text" name="username"></br>
+			
+			</br>		
+			Password:</br>
+			<input type="password" name="password"></br>
+			
+			</br>	
+			Gender:	</br>
+			<input type="radio" name="gender" value="male">Male</br>
+			<input type="radio" name="gender" value="female">Female</br>
+			
+			</br>
+			Qualification:</br>
+			<select name="qualification">
+				<option selected disable>--Select--</option>
+				
+			</select></br>
+			
+			</br>
+			Experince:</br>
+			<select name="experience_list">
+				<option selected enable>--Select--</option>
+			</select></br>
+		
+			</br>
+			Coding Languages:</br>
+			<div id="cb"></div>
+		
+			</br>
+		</form>
+		<button type="submit" value="Submit" onclick="myFunction()">Submit</button>
+		<p id="demo"></p>
+	</body>
+</html>
